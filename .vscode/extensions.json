@@ -1,0 +1,28 @@
+{
+    "recommendations": [
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag",
+        "yutengjing.vscode-colorize-plus",
+        "editorconfig.editorconfig",
+        "dracula-theme.theme-dracula",
+        "ferrierbenjamin.fold-unfold-all-icone",
+        "mhutchie.git-graph",
+        "donjayamanne.githistory",
+        "eamodio.gitlens",
+        "oderwat.indent-rainbow",
+        "mkaufman.htmlhint",
+        "orta.vscode-jest",
+        "techer.open-in-browser",
+        "esbenp.prettier-vscode",
+        "rvest.vs-code-prettier-eslint",
+        "syler.sass-indented",
+        "stylelint.vscode-stylelint",
+        "tabnine.tabnine-vscode",
+        "hbenl.vscode-test-explorer",
+        "shardulm94.trailing-spaces",
+        "ms-vscode.vscode-typescript-tslint-plugin",
+        "rbbit.typescript-hero",
+        "vscode-icons-team.vscode-icons",
+        "HookyQR.beautify"
+    ]
+}
