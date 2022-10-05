@@ -1,0 +1,20 @@
+## git config --edit --global
+[user]
+    name = Thiago Martins de Freitas
+    username = martins86
+    email = martins86@gmail.com
+[init]
+    defaultBranch = master
+[credential]
+	helper = wincred
+[core]
+    editor = code --wait
+[alias]
+    ## git s
+    s = !git status -s
+    ## adiciona tudo e faz o commit - git c "msg"
+    c = !git add . && git commit -m
+    ## adiciona no commit anterior - git amend
+    amend = !git add . && git commit --amend --no-edit
+    ## git l
+    l = !git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s %C(cyan)[%cn] %C(grenn)%cr'
