@@ -1,4 +1,11 @@
-## git config --edit --global
+# Comandos git e alias
+
+```sh
+# Abrindo arquivo de config do git
+git config --edit --global
+```
+
+```sh
 [user]
     name = Thiago Martins de Freitas
     username = martins86
@@ -10,11 +17,22 @@
 [core]
     editor = code --wait
 [alias]
-    ## git s
+    ## git s ( status mais limpo )
     s = !git status -s
-    ## adiciona tudo e faz o commit - git c "msg"
+    ## git c "msg" ( adiciona tudo e faz o commit )
     c = !git add . && git commit -m
-    ## adiciona no commit anterior - git amend
+    ## git amend ( adiciona no commit anterior )
     amend = !git add . && git commit --amend --no-edit
-    ## git l
+    ## git l ( log mais limpo )
     l = !git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s %C(cyan)[%cn] %C(green)%cr'
+```
+<br>
+
+---
+
+<br>
+
+<br>
+<br>
+
+[⬆ Voltar ao topo](#comandos-git-e-alias)<br>
