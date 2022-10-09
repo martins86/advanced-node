@@ -2,12 +2,25 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  // https://fonts.google.com/specimen/Fira+
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "typescript.format.semicolons": "remove",
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
   "editor.fontFamily": "Fira code",
   "editor.fontLigatures": true,
   "editor.fontSize": 16,
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "boundary",
+  "files.trimTrailingWhitespace": true,
   "editor.tabSize": 2,
   "explorer.autoReveal": false,
   "explorer.confirmDelete": false,
