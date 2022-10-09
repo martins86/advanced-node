@@ -11,7 +11,7 @@
   },
   "scripts": {
     "start": "node dist/main/api",
-    "build": "rimraf dist && tsc"
+    "build": "rimraf dist && tsc -p tsconfig-build.json"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +19,12 @@
   "devDependencies": {
     "@types/module-alias": "^2.0.1",
     "@types/node": "^18.8.2",
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "eslint": "^8.25.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.0.1",
     "typescript": "^4.8.4"
   },
   "dependencies": {
