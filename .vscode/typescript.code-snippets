@@ -15,7 +15,7 @@
       "\t\t${3}",
       "\t\t// Assert",
       "\t\texpect(${4})${5:.toBe}(${6})",
-      "\t});"
+      "\t})"
     ],
     "description": "Template Describe para o jasmine com it.",
     "scope": "typescript,javascript"
@@ -31,8 +31,8 @@
       "\t\t${4}",
       "\t\t// Assert",
       "\t\texpect(${5})${6:.toBe}(${7})",
-      "\t});",
-      "});"
+      "\t})",
+      "})"
     ],
     "description": "Template Describe para o jasmine com it.",
     "scope": "typescript,javascript"
