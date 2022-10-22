@@ -22,16 +22,21 @@
     "prepare": "npx husky install && chmod ug+x .husky/*",
     "pre-commit": "npx lint-staged",
     "pre-push": "npm run test:coverage",
-    "release": "standard-version"
+    "release": "standard-version",
+    "commit": "git-cz"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
     "@types/jest": "^29.1.2",
     "@types/module-alias": "^2.0.1",
     "@types/node": "^18.8.2",
     "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "commitizen": "^4.2.5",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.25.0",
     "eslint-config-standard-with-typescript": "^23.0.0",
     "eslint-plugin-import": "^2.26.0",
@@ -47,5 +52,10 @@
   "dependencies": {
     "module-alias": "^2.2.2",
     "rimraf": "^3.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
